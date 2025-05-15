@@ -1,4 +1,4 @@
-# Required Python Libraries for Telegram Bot and Web Application
+
 
 # Telegram-related libraries
 pyrogram     # Telegram MTProto API Client Library
