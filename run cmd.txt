@@ -1,1 +1,1 @@
-gunicorn app:app & python main.py
+bbbgunicorn app:app & python main.py
