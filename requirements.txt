@@ -1,10 +1,21 @@
-pyrogram
-pyrofork
-tgcrypto
-motor
-aiofiles
-dnspython
-requests
-gunicorn
-Flask
-aiohttp
+# Required Python Libraries for Telegram Bot and Web Application
+
+# Telegram-related libraries
+pyrogram     # Telegram MTProto API Client Library
+pyrofork     # Fork of Pyrogram with custom features or optimizations
+tgcrypto     # Cryptographic acceleration for MTProto (used with Pyrogram)
+
+# Database and file handling
+motor        # Async MongoDB driver for Python (used with asyncio)
+aiofiles     # Asynchronous file operations
+
+# DNS and networking
+dnspython    # DNS toolkit for Python, useful for advanced DNS resolution
+
+# HTTP requests and web frameworks
+requests     # Simple HTTP library for making API requests
+Flask        # Lightweight WSGI web framework for building web apps
+aiohttp      # Asynchronous HTTP client/server framework
+
+# Production server
+gunicorn     # WSGI HTTP server for running Python web apps in production
